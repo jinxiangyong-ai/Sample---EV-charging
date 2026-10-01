@@ -573,7 +573,7 @@ export const ActivitySessionsScreen: React.FC<ActivitySessionsScreenProps> = ({
                     const encodedUri = encodeURI(csvContent);
                     const link = document.createElement('a');
                     link.setAttribute('href', encodedUri);
-                    link.setAttribute('download', 'VoltPoint_Sessions_Export.csv');
+                    link.setAttribute('download', 'Low_Battery_Sessions_Export.csv');
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
@@ -648,10 +648,10 @@ export const ActivitySessionsScreen: React.FC<ActivitySessionsScreenProps> = ({
               </button>
             </div>
 
-            {/* VoltPoint Pass */}
+            {/* Low Battery Pass */}
             <div className="bg-white p-space-lg rounded-2xl shadow-sm border border-[#bbcac0]/25 flex flex-col gap-space-md">
               <div className="flex items-center justify-between">
-                <div className="font-headline-md text-headline-md text-[#0b1c30] tracking-tight">VoltPoint Pass</div>
+                <div className="font-headline-md text-headline-md text-[#0b1c30] tracking-tight">Low Battery Pass</div>
                 <span className="font-label-sm text-label-sm bg-[#63fcc0] text-[#002114] px-2.5 py-1 rounded-full font-bold">
                   ACTIVE TIER
                 </span>

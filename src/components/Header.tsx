@@ -50,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span className="material-symbols-outlined text-[20px] text-white">bolt</span>
             </div>
             <span className="font-headline-md text-headline-md tracking-tight text-[#0b1c30]">
-              VoltPoint <span className="text-[#006c4b]">EV</span>
+              Low <span className="text-[#006c4b]">Battery</span>
             </span>
           </button>
 

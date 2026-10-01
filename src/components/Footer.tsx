@@ -9,9 +9,9 @@ export const Footer: React.FC = () => {
         <div className="w-full max-w-[1440px] mx-auto px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md text-[#565e74] font-body-sm text-body-sm">
           <div className="flex items-center gap-space-sm flex-wrap">
             <span className="font-label-md text-label-md text-[#0b1c30] font-semibold">
-              VoltPoint EV Network
+              Low Battery EV Network
             </span>
-            <span>© 2025 VoltPoint Technologies Inc. All rights reserved.</span>
+            <span>© 2025 Low Battery Technologies Inc. All rights reserved.</span>
           </div>
 
           <div className="flex items-center gap-space-lg font-label-md text-label-md flex-wrap">
