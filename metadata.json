@@ -1,0 +1,6 @@
+{
+  "name": "VoltPoint EV Network",
+  "description": "Next-generation electric vehicle charging intelligence, high-density fast hub explorer, trip elevation planner, and live session telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
